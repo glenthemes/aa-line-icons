@@ -1,0 +1,39 @@
+.aa-line-icons {
+    display:inline-block;
+    speak:never;
+    font-style:normal;
+    font-weight:normal;
+    font-variant:normal;
+    text-transform:none;
+    line-height:var(--Line-Icons-Size);
+    vertical-align:middle;
+}
+
+.aa-line-icons svg {
+    display:block;
+    width:var(--Line-Icons-Size);
+    height:var(--Line-Icons-Size);
+}
+
+.aa-line-icons svg [stroke],
+.aa-line-icnos svg polyline,
+.aa-line-icons svg line {
+    stroke:var(--Line-Icons-Color);
+}
+
+.aa-line-icons svg path,
+.aa-line-icons svg polygon,
+.aa-line-icons svg circle {
+    fill:var(--Line-Icons-Color);
+}
+
+.aa-line-icons .cls-1 {
+    opacity:1;
+    fill:none;
+    stroke:var(--Line-Icons-Color);
+}
+
+.aa-line-icons[icon-name="italic"] svg,
+.aa-line-icons[icon-name="repeat"] svg {
+    transform:scaleX(-1)
+}
