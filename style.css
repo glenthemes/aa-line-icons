@@ -44,6 +44,7 @@
 }
 
 .aa-line-icons[icon-name="italic"] svg,
+.aa-line-icons[icon-name="phone-1-off"] svg,
 .aa-line-icons[icon-name="repeat"] svg {
     transform:scaleX(-1)
 }
